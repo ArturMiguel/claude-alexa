@@ -1,0 +1,46 @@
+{
+  "name": "claude-alexa",
+  "version": "0.1.0",
+  "description": "Integração do Claude Code com a Alexa",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturMiguel/claude-alexa.git"
+  },
+  "keywords": [
+    "alexa",
+    "claude",
+    "claude-code",
+    "voice-assistant"
+  ],
+  "author": "Artur Miguel",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
+  "bugs": {
+    "url": "https://github.com/ArturMiguel/claude-alexa/issues"
+  },
+  "homepage": "https://github.com/ArturMiguel/claude-alexa#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.330",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "pino": "^9.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "pino-pretty": "^13.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3"
+  }
+}

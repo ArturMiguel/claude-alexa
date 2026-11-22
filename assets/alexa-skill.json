@@ -1,0 +1,187 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meu assistente",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CreateIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Fazer {question}",
+                        "Faça {question}",
+                        "Faz {question}",
+                        "Criar {question}",
+                        "Crie {question}",
+                        "Cria {question}",
+                        "Escreve {question}",
+                        "Escreva {question}"
+                    ]
+                },
+                {
+                    "name": "OpenIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "Abra {question}",
+                        "Abre {question}",
+                        "Abrir {question}"
+                    ]
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [
+                        {
+                            "name": "question",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "O que é {question}",
+                        "O que são {question}",
+                        "O que significa {question}",
+                        "O que você acha de {question}",
+                        "O que acontece se {question}",
+                        "O que tenho {question}",
+                        "Tenho alguma {question}",
+                        "Existe {question}",
+                        "Onde {question}",
+                        "Onde fica {question}",
+                        "Como {question}",
+                        "Como faço {question}",
+                        "Como funciona {question}",
+                        "Qual {question}",
+                        "Quais {question}",
+                        "Quem {question}",
+                        "Quando {question}",
+                        "Por que {question}",
+                        "Porque {question}",
+                        "Pra que {question}",
+                        "Para que {question}",
+                        "Quanto {question}",
+                        "Quantos {question}",
+                        "Quantas {question}",
+                        "Será que {question}",
+                        "É verdade que {question}",
+                        "É possível {question}",
+                        "Me diz {question}",
+                        "Me diga {question}",
+                        "Me fala {question}",
+                        "Me fale {question}",
+                        "Me conta {question}",
+                        "Me conte {question}",
+                        "Me explica {question}",
+                        "Me explique {question}",
+                        "Me ajuda a {question}",
+                        "Me ajude a {question}",
+                        "Me mostra {question}",
+                        "Me dá {question}",
+                        "Me dê {question}",
+                        "Me lembra {question}",
+                        "Explica {question}",
+                        "Explique {question}",
+                        "Sugere {question}",
+                        "Sugira {question}",
+                        "Recomenda {question}",
+                        "Recomende {question}",
+                        "Pergunta {question}",
+                        "Responde {question}",
+                        "Responda {question}",
+                        "Diz {question}",
+                        "Fala {question}",
+                        "Conta {question}",
+                        "Dá para {question}",
+                        "Dá pra {question}",
+                        "Tem como {question}",
+                        "Você sabe {question}",
+                        "Você conhece {question}",
+                        "Você pode {question}",
+                        "Você consegue {question}",
+                        "Você acha que {question}",
+                        "Pode {question}",
+                        "Consegue {question}",
+                        "Sabe {question}",
+                        "Eu quero {question}",
+                        "Quero {question}",
+                        "Eu queria {question}",
+                        "Queria {question}",
+                        "Eu preciso {question}",
+                        "Preciso {question}",
+                        "Eu gostaria de {question}",
+                        "Gostaria de {question}",
+                        "Eu tenho uma dúvida {question}",
+                        "Tenho uma dúvida {question}",
+                        "Uma pergunta {question}",
+                        "Uma dúvida {question}",
+                        "Estou pensando em {question}",
+                        "Tô pensando em {question}",
+                        "Estava pensando {question}",
+                        "E se {question}",
+                        "E sobre {question}",
+                        "E {question}",
+                        "Mas {question}",
+                        "Então {question}",
+                        "Agora {question}",
+                        "Também {question}",
+                        "Outra coisa {question}",
+                        "Mais uma {question}",
+                        "Fala sobre {question}",
+                        "Fale sobre {question}",
+                        "Conta sobre {question}",
+                        "Me fala sobre {question}",
+                        "Me conta sobre {question}",
+                        "Eu acho que {question}",
+                        "Acho que {question}",
+                        "Na sua opinião {question}",
+                        "Sobre {question}",
+                        "Tipo {question}",
+                        "Pesquisa {question}",
+                        "Pesquise {question}",
+                        "Procura {question}",
+                        "Procure {question}",
+                        "Busca {question}",
+                        "Busque {question}",
+                        "Calcula {question}",
+                        "Calcule {question}",
+                        "Traduz {question}",
+                        "Traduza {question}",
+                        "Resume {question}",
+                        "Resuma {question}",
+                        "Lista {question}",
+                        "Liste {question}",
+                        "Compara {question}",
+                        "Compare {question}",
+                        "Quais {question}",
+                        "Me diga {question}",
+                        "O que tem {question}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
